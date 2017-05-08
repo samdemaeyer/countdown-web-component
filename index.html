@@ -10,23 +10,23 @@
   <body>
     <div>
       <h2 class="title">This timer ends 10 days from now at noon (default)</h2>
-      <countdown-component />
+      <countdown-component>
     </div>
     <div>
       <h2 class="title">This is a alarm-clock with real time and theme passed</h2>
-      <alarm-clock @theme="light" />
+      <alarm-clock @theme="light">
     </div>
     <div>
       <h2 class="title">This timer ends on the 10th of December at noon (date passed)</h2>
-      <countdown-component @theme="light" @countdownDate="2017-10-12" />
+      <countdown-component @theme="light" @countdownDate="2017-10-12">
     </div>
     <div>
       <h2 class="title">This timer ends on the 10th of December at 23:59:59 (date and time passed)</h2>
-      <countdown-component @theme="light" @countdownDate="2017-10-12" @countdownDate="23:59:59" />
+      <countdown-component @theme="light" @countdownDate="2017-10-12" @countdownDate="23:59:59">
     </div>
     <div>
       <h2 class="title">This is a alarm-clock with real time and default theme</h2>
-      <alarm-clock />
+      <alarm-clock>
     </div>
   </body>
 </html>

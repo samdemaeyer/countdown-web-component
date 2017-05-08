@@ -3900,7 +3900,6 @@ function debugCallback(context, get$$1) {
     console.info('Use `context`, and `get(<path>)` to debug this template.');
     // for example...
     context === get$$1('this');
-    debugger;
 }
 /* tslint:enable */
 var callback = debugCallback;
@@ -10189,7 +10188,6 @@ var AlarmClock = function (_Component) {
 
         _this.theme = 'dark';
         _this.loadTime();
-				debugger;
 				if (_this.args.theme) {
             _this.theme = _this.args.theme;
         }
